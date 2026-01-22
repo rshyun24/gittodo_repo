@@ -37,11 +37,11 @@ test2()
 
 def test3():
     """3번 실습문제 풀이"""
-a = int(input())
-if (100 > a) and (a > 10) :
-    print('True')
-else :
-    print('False')
+    a = int(input())
+    if (100 > a) and (a > 10) :
+        print('True')
+    else :
+        print('False')
 test3()
 
 # 04.
@@ -51,11 +51,11 @@ test3()
 
 def test4():
     """4번 실습문제 풀이"""
-b = float(input())
-if round(b) == 1:
-    print('True')
-else :
-    print('False')
+    b = float(input())
+    if round(b) == 1:
+        print('True')
+    else :
+        print('False')
 test4()
 
 # 05.
@@ -66,8 +66,8 @@ test4()
 
 def test5():
     """5번 실습문제 풀이"""
-a = float(input())
-print(math.ceil(x) < 10 and math.floor(x) >= 5)
+    a = float(input())
+    print(math.ceil(x) < 10 and math.floor(x) >= 5)
 test5()
 
 # 06.
@@ -78,12 +78,12 @@ test5()
 
 def test6():
     """6번 실습문제 풀이"""
-a = float(input())
-b = float(input())
-if round(a) > math.floor(b) or a > b:
-    print('True')
-else :
-    print('False')
+    a = float(input())
+    b = float(input())
+    if round(a) > math.floor(b) or a > b:
+        print('True')
+    else :
+        print('False')
 test6()
 
 # 07.
@@ -95,11 +95,11 @@ test6()
 
 def test7():
     """7번 실습문제 풀이"""
-x = float(input())
-if math.ceil(x) % 2 == 0 and round(x) < 10 :
-    print('True')
-else :
-    print('False')
+    x = float(input())
+    if math.ceil(x) % 2 == 0 and round(x) < 10 :
+        print('True')
+    else :
+        print('False')
 test7()
 
 # 08.
@@ -108,8 +108,8 @@ test7()
 
 def test8():
     """8번 실습문제 풀이"""
-x = float(input())
-print(max(round(x), math.ceil(x), math.floor(x)))
+    x = float(input())
+    print(max(round(x), math.ceil(x), math.floor(x)))
 test8()
 
 # 09.
@@ -120,11 +120,11 @@ test8()
 
 def test9():
     """9번 실습문제 풀이"""
-v = float(input())
-if round(v) % 5 == 0 or math.ceil(v) % 2 == 0 :
-    print('조건 만족')
-else :
-    print('조건 불만족')
+    v = float(input())
+    if round(v) % 5 == 0 or math.ceil(v) % 2 == 0 :
+        print('조건 만족')
+    else :
+        print('조건 불만족')
 test9()
 
 # 10.
@@ -135,10 +135,10 @@ test9()
 
 def test10():
     """10번 실습문제 풀이"""
-a = float(input())
-b = float(input())
-if round(a) <= round(b) and math.ceil(a) >= math.floor(b) :
-    print('True')
-else:
-    print('False')
+    a = float(input())
+    b = float(input())
+    if round(a) <= round(b) and math.ceil(a) >= math.floor(b) :
+        print('True')
+    else:
+        print('False')
 test10()
